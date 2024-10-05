@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560933022807",
+    "project_id": "lingopanda",
+    "storage_bucket": "lingopanda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560933022807:android:5508cd109908414f184712",
+        "android_client_info": {
+          "package_name": "com.example.lingopanda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtztvKqHXbJAe12uVUcw8D-ggtm8tr7_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
