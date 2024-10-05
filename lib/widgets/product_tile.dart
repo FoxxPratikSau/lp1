@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import '../models/product.dart';
 import '../providers/remote_config_provider.dart';
@@ -23,7 +24,7 @@ class ProductTile extends StatelessWidget {
       ),
       elevation: 0,
       child: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(4.0),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -48,7 +49,7 @@ class ProductTile extends StatelessWidget {
             // Product title
             Text(
               product.title ?? 'No Title',
-              style: const TextStyle(
+              style: GoogleFonts.poppins(
                 fontWeight: FontWeight.bold,
                 fontSize: 18,
               ),
@@ -59,7 +60,7 @@ class ProductTile extends StatelessWidget {
             // Product description
             Text(
               product.description ?? 'No Description Available',
-              style: const TextStyle(
+              style: GoogleFonts.poppins(
                 fontSize: 12,
                 color: Colors.black,
               ),

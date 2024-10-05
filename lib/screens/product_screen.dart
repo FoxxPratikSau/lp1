@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import '../providers/product_provider.dart';
 import '../providers/remote_config_provider.dart';
@@ -63,9 +64,9 @@ class _ProductScreenState extends State<ProductScreen>
           //   },
           // ),
         ],
-        title: const Text(
+        title: Text(
           'e-Shop',
-          style: TextStyle(
+          style: GoogleFonts.poppins(
             fontWeight: FontWeight.bold,
             color: Colors.white,
             fontSize: 24,
